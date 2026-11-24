@@ -1,0 +1,4 @@
+interface:
+  display_name: "MOSS 本地部署"
+  short_description: "检查真实电脑配置，部署并验证 ComfyUI MOSS SFT 与 LoRA 文生图"
+  default_prompt: "使用 $moss-sft-lora-deploy，先检查我的电脑和现有环境，再部署 MOSS SFT＋LoRA，实际出图验收后教我使用。"

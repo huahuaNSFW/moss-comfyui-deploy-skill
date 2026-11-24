@@ -1,0 +1,38 @@
+{
+  "verified_date": "2026-11-24",
+  "scope": "MOSS SFT native ComfyUI text-to-image with one community LoRA",
+  "note": "Hashes were calculated from the handoff reference files. Recheck upstream revisions before download; main is mutable. No model weights are bundled.",
+  "files": [
+    {
+      "name": "moss_image_sft_int8_convrot.safetensors",
+      "destination_relative_to_comfyui": "models/diffusion_models/moss_image_sft_int8_convrot.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image/resolve/main/diffusion_models/moss_image_sft_int8_convrot.safetensors",
+      "bytes": 5413698958,
+      "sha256": "B4D1475BC7EEFFD7B809E82EA13A1FBA1FB85C4E18365AF3813722FAA5C0FE4F"
+    },
+    {
+      "name": "qwen3.5_9b_w4a8_gptq.safetensors",
+      "destination_relative_to_comfyui": "models/text_encoders/qwen3.5_9b_w4a8_gptq.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image/resolve/main/text_encoders/qwen3.5_9b_w4a8_gptq.safetensors",
+      "bytes": 7343591088,
+      "sha256": "4CC6A1543AD2061806DA46F35F90CADB4801DCBA246C44782CF42EC0FEB6407C"
+    },
+    {
+      "name": "flux2-vae_small.safetensors",
+      "destination_relative_to_comfyui": "models/vae/flux2-vae_small.safetensors",
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image/resolve/main/vae/flux2-vae_small.safetensors",
+      "bytes": 249521340,
+      "sha256": "D8D52BA036475F5FB07C8B435E176D3D97EBFA82F0D1A1C317F9CC1E25BD013B"
+    },
+    {
+      "name": "MOSS-Image-NSFW-Uncensored-LoRA-ComfyUI.safetensors",
+      "destination_relative_to_comfyui": "models/loras/MOSS-Image-NSFW-Uncensored-LoRA-ComfyUI.safetensors",
+      "url": "https://huggingface.co/axiomofmind/Moss-image-nsfw-uncensored-lora/resolve/main/MOSS-Image-NSFW-Uncensored-LoRA-ComfyUI.safetensors",
+      "bytes": 74379592,
+      "sha256": "4480E3154FD663D5EE6DAA86AC59D0FD211CE495B9DFEEDFB914C38F777F3A0B",
+      "variant": "focused checkpoint 1750, default at verification date",
+      "trigger": "moss_xvstyle",
+      "model_strength": 0.8
+    }
+  ]
+}
